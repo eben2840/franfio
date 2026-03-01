@@ -22,6 +22,9 @@ const translations = {
     "woman's long dress": "Damen Langes Kleid",
     "woman's bag": "Damentasche",
     "woman's shoes": "Damenschuhe",
+    "2 piece swimsuit": "2-teiliger Badeanzug",
+    "swimsuits": "Badeanzüge",
+    "woman's fashion": "Damenmode",
     "add to cart": "In den Warenkorb",
     "view all": "Alle anzeigen",
     
@@ -110,7 +113,17 @@ const translations = {
     "product desc": "Dieses hochwertige Produkt ist aus den besten Materialien gefertigt und bietet außergewöhnlichen Komfort und Stil. Perfekt für jeden Anlass, kombiniert es Eleganz mit Funktionalität.",
     "faq answer": "Wir bieten kostenlosen Versand für alle Bestellungen über 50€. Die Lieferzeit beträgt in der Regel 3-5 Werktage. Sie können Ihre Bestellung jederzeit verfolgen.",
     "faq question 1": "Wie lange dauert die Lieferung?",
-    "faq question 2": "Kann ich meine Bestellung zurückgeben?"
+    "faq question 2": "Kann ich meine Bestellung zurückgeben?",
+    
+    // Options/Features
+    "30 days returns": "30 Tage Rückgabe",
+    "no questions asked": "Keine Fragen gestellt",
+    "free delivery": "Kostenlose Lieferung",
+    "on all orders": "Bei allen Bestellungen",
+    "secure payments": "Sichere Zahlungen",
+    "no need to worry": "Keine Sorge",
+    "24/7 support": "24/7 Support",
+    "just call us": "Rufen Sie uns einfach an"
   },
   en: {
     // Navigation
@@ -135,6 +148,9 @@ const translations = {
     "woman's long dress": "woman's long dress",
     "woman's bag": "woman's bag",
     "woman's shoes": "woman's shoes",
+    "2 piece swimsuit": "2 piece swimsuit",
+    "swimsuits": "swimsuits",
+    "woman's fashion": "woman's fashion",
     "add to cart": "add to cart",
     "view all": "view all",
     
@@ -223,7 +239,17 @@ const translations = {
     "product desc": "This high-quality product is made from the finest materials and offers exceptional comfort and style. Perfect for any occasion, it combines elegance with functionality.",
     "faq answer": "We offer free shipping on all orders over €50. Delivery time is usually 3-5 business days. You can track your order at any time.",
     "faq question 1": "How long does delivery take?",
-    "faq question 2": "Can I return my order?"
+    "faq question 2": "Can I return my order?",
+    
+    // Options/Features
+    "30 days returns": "30 days returns",
+    "no questions asked": "no questions asked",
+    "free delivery": "free delivery",
+    "on all orders": "on all orders",
+    "secure payments": "secure payments",
+    "no need to worry": "no need to worry",
+    "24/7 support": "24/7 support",
+    "just call us": "just call us"
   }
 };
 
