@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
 <title>Product</title>
 <meta charset="utf-8">
@@ -22,19 +22,23 @@
 	<header class="header">
 		<div class="header_inner d-flex flex-row align-items-center justify-content-start">
 			<div class="logo"><a href="index.html">
-				<img src="images/logome.jpeg" alt="Logo" style="width: 120px;">
+			<img src="images/1.png" alt="" style="width: 80px;">
 			</a></div>
 			<nav class="main_nav">
 				<ul>
-					<li><a href="index.html">home</a></li>
-					<li><a href="categories.html">clothes</a></li>
-					<li><a href="categories.html">accessories</a></li>
-					<li><a href="categories.html">lingerie</a></li>
-					<li><a href="contact.html">contact</a></li>
+					<li><a href="index.html" data-translate="home">Startseite</a></li>
+					<li><a href="categories.html" data-translate="clothes">Kleidung</a></li>
+					<li><a href="categories.html" data-translate="accessories">Accessoires</a></li>
+					<li><a href="categories.html" data-translate="lingerie">Dessous</a></li>
+					<li><a href="contact.html" data-translate="contact">Kontakt</a></li>
 				</ul>
 			</nav>
 
 
+			<div class="lang-switcher" style="margin-left: auto; margin-right: 20px;">
+				<button onclick="switchLang('de')" style="padding: 5px 10px; cursor: pointer; background: #830a23; color: white; border: none; margin-right: 5px;">DE</button>
+				<button onclick="switchLang('en')" style="padding: 5px 10px; cursor: pointer; background: #830a23; color: white; border: none;">EN</button>
+			</div>
 			<div class="burger_container d-flex flex-column align-items-center justify-content-around menu_mm"><div></div><div></div><div></div></div>
 		</div>
 	</header>
@@ -126,7 +130,7 @@
 							<span>in stock</span>
 						</div>
 						<div class="product_text">
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis quam ipsum. Pellentesque consequat tellus non tortor tempus, id egestas elit iaculis. Proin eu dui porta, pretium metus vitae, pharetra odio. Sed ac mi commodo, pellentesque erat eget, accumsan justo. Etiam sed placerat felis. Proin non rutrum ligula.</p>
+							<p><span data-translate="product desc">Dieses hochwertige Produkt ist aus den besten Materialien gefertigt und bietet außergewöhnlichen Komfort und Stil. Perfekt für jeden Anlass, kombiniert es Eleganz mit Funktionalität.</span></p>
 						</div>
 						<!-- Product Quantity -->
 						<div class="product_quantity_container">
@@ -141,7 +145,7 @@
 						</div>
 						<!-- Product Size -->
 						<div class="product_size_container">
-							<span>Size</span>
+							<spandata-translate="size">Größe</span>
 							<div class="product_size">
 								<ul class="d-flex flex-row align-items-start justify-content-start">
 									<li>
@@ -194,7 +198,7 @@
 											<i class="fa fa-star"></i>
 										</div>
 										<div class="review_text">
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis quam ipsum. Pellentesque consequat tellus non tortor tempus, id egestas elit iaculis. Proin eu dui porta, pretium metus vitae, pharetra odio. Sed ac mi commodo, pellentesque erat eget, accumsan justo. Etiam sed placerat felis. Proin non rutrum ligula. </p>
+											<p><span data-translate="product desc">Dieses hochwertige Produkt ist aus den besten Materialien gefertigt und bietet außergewöhnlichen Komfort und Stil. Perfekt für jeden Anlass, kombiniert es Eleganz mit Funktionalität.</span> </p>
 										</div>
 									</div>
 								</li>
@@ -212,7 +216,7 @@
 											<i class="fa fa-star"></i>
 										</div>
 										<div class="review_text">
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis quam ipsum. Pellentesque consequat tellus non tortor tempus, id egestas elit iaculis. Proin eu dui porta, pretium metus vitae, pharetra odio. Sed ac mi commodo, pellentesque erat eget, accumsan justo. Etiam sed placerat felis. Proin non rutrum ligula. </p>
+											<p><span data-translate="product desc">Dieses hochwertige Produkt ist aus den besten Materialien gefertigt und bietet außergewöhnlichen Komfort und Stil. Perfekt für jeden Anlass, kombiniert es Eleganz mit Funktionalität.</span> </p>
 										</div>
 									</div>
 								</li>
@@ -267,7 +271,7 @@
 								<button type="submit" class="newsletter_button">subscribe</button>
 							</form>
 						</div>
-						<div class="newsletter_text">Integer ut imperdiet erat. Quisque ultricies lectus tellus, eu tristique magna pharetra nec. Fusce vel lorem libero. Integer ex mi, facilisis sed nisi ut, vestib ulum ultrices nulla. Aliquam egestas tempor leo.</div>
+						<div class="newsletter_text"><span data-translate="newsletter desc">Erhalten Sie exklusive Angebote und Updates zu unseren neuesten Kollektionen. Melden Sie sich noch heute an und sparen Sie bei Ihrer nächsten Bestellung!</span></div>
 					</div>
 				</div>
 			</div>
@@ -283,11 +287,11 @@
 					<div class="footer_logo"><a href="#">Wish</a></div>
 					<nav class="footer_nav">
 						<ul>
-							<li><a href="index.html">home</a></li>
-							<li><a href="categories.html">clothes</a></li>
-							<li><a href="categories.html">accessories</a></li>
-							<li><a href="categories.html">lingerie</a></li>
-							<li><a href="contact.html">contact</a></li>
+							<li><a href="index.html" data-translate="home">Startseite</a></li>
+							<li><a href="categories.html" data-translate="clothes">Kleidung</a></li>
+							<li><a href="categories.html" data-translate="accessories">Accessoires</a></li>
+							<li><a href="categories.html" data-translate="lingerie">Dessous</a></li>
+							<li><a href="contact.html" data-translate="contact">Kontakt</a></li>
 						</ul>
 					</nav>
 					<div class="footer_social">
@@ -314,5 +318,6 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 <script src="plugins/easing/easing.js"></script>
 <script src="plugins/parallax-js-master/parallax.min.js"></script>
 <script src="js/product_custom.js"></script>
+<script src="js/translations.js"></script>
 </body>
 </html>

@@ -580,13 +580,14 @@ section
 }
 .home_slider_content_inner
 {
-	background: #830a23;
+	background: #830a22ba;
 	color: #FFFFFF;
 }
 .home_slider_title
 {
 	font-family: 'Lucida', serif;
 	font-size: 72px;
+	
 	color: #FFFFFF;
 	height: 99px;
 	line-height: 99px;
