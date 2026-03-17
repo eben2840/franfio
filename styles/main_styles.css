@@ -1382,6 +1382,7 @@ section
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
+	
 }
 .newsletter .section_subtitle,
 .newsletter .section_title
@@ -1394,6 +1395,7 @@ section
 }
 .newsletter_input
 {
+	
 	width: 100%;
 	height: 46px;
 	background: #FFFFFF;
