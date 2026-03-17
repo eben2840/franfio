@@ -2,22 +2,59 @@ const translations = {
   de: {
     // Navigation
     "home": "Startseite",
+    "our brand": "Unsere Marke",
+    "gallery": "Galerie",
     "clothes": "Kleidung",
     "accessories": "Accessoires",
     "lingerie": "Dessous",
     "contact": "Kontakt",
-    
+
     // Home Slider
-    "shop now": "Jetzt einkaufen",
-    "we are online!": "Wir sind online!",
-    
+    "new collection": "Neue Kollektion",
+    "defined by elegance": "Durch Eleganz definiert",
+    "exclusively yours": "Exklusiv für Sie",
+    "timeless bold you": "Zeitlos. Mutig. Sie.",
+
+    // Legacy slider keys (kept for compatibility)
+    "shop now": "Jetzt shoppen",
+    "we are online!": "Durch Eleganz definiert",
+
+    // Promo Section
+    "crafted for you": "Für Sie geschaffen",
+    "welcome to franfio": "Willkommen bei Franfio",
+    "new season": "Neue Saison",
+    "style that speaks": "Stil, der spricht.",
+    "left promo desc": "Entdecken Sie die neue Franfio Kollektion — zeitlose Eleganz trifft auf modernen Ausdruck. Jedes Stück erzählt eine Geschichte.",
+    "explore collection": "Kollektion entdecken",
+    "-25% off": "-25% Rabatt",
+    "selected styles": "Ausgewählte Styles",
+
     // Sections
     "only the best": "Nur das Beste",
     "new arrivals": "Neuankömmlinge",
-    "on all bags": "auf alle Taschen",
+    "on all bags": "Auf alle Taschen",
     "coats & jackets": "Mäntel & Jacken",
-    "on sandals": "auf Sandalen",
-    
+    "on sandals": "Auf Sandalen",
+
+    // Extra Promos
+    "signature footwear": "Signature Footwear",
+    "extra promo 1 desc": "Treten Sie ein in Luxus. Unsere Schuhkollektion verbindet handwerkliche Qualität mit modernen Silhouetten — für Frauen, die mit Bestimmtheit auftreten.",
+    "shop now btn": "Jetzt shoppen",
+    "extra promo 2 desc": "Erschaffen Sie Ihren perfekten Look aus unseren vielseitigen Teilen. Jedes Stück ist darauf ausgelegt, das nächste zu ergänzen.",
+    "explore styles": "Styles erkunden",
+
+    // Gallery
+    "the franfio edit": "The Franfio Edit",
+    "gallery desc": "Eine kuratierte Auswahl unserer beliebtesten Stücke — gestylt für jede Frau, jeden Anlass.",
+    "explore now": "Jetzt entdecken",
+
+    // Newsletter
+    "exclusive access": "Exklusiver Zugang",
+    "newsletter title": "Rabatt auf einen bestimmten Artikel",
+    "enter your email": "Ihre E-Mail-Adresse",
+    "subscribe": "Abonnieren",
+    "newsletter desc": "Werden Sie Teil des Franfio-Kreises. Entdecken Sie als Erste neue Ankünfte, exklusive Mitgliederangebote und saisonale Lookbooks.",
+
     // Products
     "woman's long dress": "Damen Langes Kleid",
     "woman's bag": "Damentasche",
@@ -27,26 +64,17 @@ const translations = {
     "woman's fashion": "Damenmode",
     "add to cart": "In den Warenkorb",
     "view all": "Alle anzeigen",
-    
+
     // Extra
     "extra": "Extra",
     "special offer": "Sonderangebot",
     "up to": "Bis zu",
     "off": "Rabatt",
-    
-    // Gallery
-    "gallery": "Galerie",
-    
+
     // Testimonials
     "testimonials": "Bewertungen",
     "customer reviews": "Kundenbewertungen",
-    
-    // Newsletter
-    "newsletter": "Newsletter",
-    "subscribe to our newsletter": "Abonnieren Sie unseren Newsletter",
-    "enter your email": "Geben Sie Ihre E-Mail ein",
-    "subscribe": "Abonnieren",
-    
+
     // Footer
     "about us": "Über uns",
     "customer service": "Kundenservice",
@@ -57,7 +85,7 @@ const translations = {
     "kids": "Kinder",
     "shoes": "Schuhe",
     "brands": "Marken",
-    
+
     // Product Page
     "product": "Produkt",
     "price": "Preis",
@@ -68,7 +96,7 @@ const translations = {
     "reviews": "Bewertungen",
     "in stock": "Auf Lager",
     "out of stock": "Ausverkauft",
-    
+
     // Cart
     "cart": "Warenkorb",
     "shopping cart": "Einkaufswagen",
@@ -80,7 +108,7 @@ const translations = {
     "remove": "Entfernen",
     "update cart": "Warenkorb aktualisieren",
     "coupon code": "Gutscheincode",
-    
+
     // Checkout
     "billing details": "Rechnungsdetails",
     "shipping": "Versand",
@@ -95,7 +123,7 @@ const translations = {
     "country": "Land",
     "zip code": "Postleitzahl",
     "order total": "Bestellsumme",
-    
+
     // Contact
     "get in touch": "Kontaktieren Sie uns",
     "name": "Name",
@@ -105,17 +133,16 @@ const translations = {
     "phone number": "Telefonnummer",
     "email address": "E-Mail-Adresse",
     "our location": "Unser Standort",
-    
+
     // Descriptions
-    "newsletter desc": "Erhalten Sie exklusive Angebote und Updates zu unseren neuesten Kollektionen. Melden Sie sich noch heute an und sparen Sie bei Ihrer nächsten Bestellung!",
-    "promo desc": "Entdecken Sie unsere exklusive Kollektion mit erstaunlichen Rabatten auf ausgewählte Artikel.",
+    "promo desc": "Entdecken Sie die neue Franfio Kollektion — zeitlose Eleganz trifft auf modernen Ausdruck.",
     "testimonial text": "Fantastische Qualität und schnelle Lieferung! Ich bin sehr zufrieden mit meinem Einkauf und werde definitiv wiederkommen. Der Kundenservice war ausgezeichnet!",
     "product desc": "Dieses hochwertige Produkt ist aus den besten Materialien gefertigt und bietet außergewöhnlichen Komfort und Stil. Perfekt für jeden Anlass, kombiniert es Eleganz mit Funktionalität.",
     "faq answer": "Wir bieten kostenlosen Versand für alle Bestellungen über 50€. Die Lieferzeit beträgt in der Regel 3-5 Werktage. Sie können Ihre Bestellung jederzeit verfolgen.",
     "faq question 1": "Wie lange dauert die Lieferung?",
     "faq question 2": "Kann ich meine Bestellung zurückgeben?",
-    
-    // Options/Features
+
+    // Features
     "30 days returns": "30 Tage Rückgabe",
     "no questions asked": "Keine Fragen gestellt",
     "free delivery": "Kostenlose Lieferung",
@@ -127,129 +154,156 @@ const translations = {
   },
   en: {
     // Navigation
-    "home": "home",
-    "clothes": "clothes",
-    "accessories": "accessories",
-    "lingerie": "lingerie",
-    "contact": "contact",
-    
+    "home": "Home",
+    "our brand": "Our Brand",
+    "gallery": "Gallery",
+    "clothes": "Clothes",
+    "accessories": "Accessories",
+    "lingerie": "Lingerie",
+    "contact": "Contact",
+
     // Home Slider
-    "shop now": "shop now",
-    "we are online!": "we are online!",
-    
+    "new collection": "New Collection",
+    "defined by elegance": "Defined by Elegance",
+    "exclusively yours": "Exclusively Yours",
+    "timeless bold you": "Timeless. Bold. You.",
+
+    // Legacy slider keys
+    "shop now": "Shop Now",
+    "we are online!": "Defined by Elegance",
+
+    // Promo Section
+    "crafted for you": "Crafted for You",
+    "welcome to franfio": "Welcome to Franfio",
+    "new season": "New Season",
+    "style that speaks": "Style that speaks.",
+    "left promo desc": "Discover the new Franfio collection — where timeless elegance meets modern expression. Every piece tells a story.",
+    "explore collection": "Explore Collection",
+    "-25% off": "-25% Off",
+    "selected styles": "Selected Styles",
+
     // Sections
-    "only the best": "only the best",
-    "new arrivals": "new arrivals",
-    "on all bags": "on all bags",
-    "coats & jackets": "coats & jackets",
-    "on sandals": "on sandals",
-    
-    // Products
-    "woman's long dress": "woman's long dress",
-    "woman's bag": "woman's bag",
-    "woman's shoes": "woman's shoes",
-    "2 piece swimsuit": "2 piece swimsuit",
-    "swimsuits": "swimsuits",
-    "woman's fashion": "woman's fashion",
-    "add to cart": "add to cart",
-    "view all": "view all",
-    
-    // Extra
-    "extra": "extra",
-    "special offer": "special offer",
-    "up to": "up to",
-    "off": "off",
-    
+    "only the best": "Only the Best",
+    "new arrivals": "New Arrivals",
+    "on all bags": "On All Bags",
+    "coats & jackets": "Coats & Jackets",
+    "on sandals": "On Sandals",
+
+    // Extra Promos
+    "signature footwear": "Signature Footwear",
+    "extra promo 1 desc": "Step into luxury. Our curated shoe collection blends refined craftsmanship with modern silhouettes — designed for women who move with purpose.",
+    "shop now btn": "Shop Now",
+    "extra promo 2 desc": "Build your perfect look from our versatile separates. Every piece is designed to complement the next — effortlessly.",
+    "explore styles": "Explore Styles",
+
     // Gallery
-    "gallery": "gallery",
-    
-    // Testimonials
-    "testimonials": "testimonials",
-    "customer reviews": "customer reviews",
-    
+    "the franfio edit": "The Franfio Edit",
+    "gallery desc": "A curated selection of our most-loved pieces — styled for every woman, every occasion.",
+    "explore now": "Explore Now",
+
     // Newsletter
-    "newsletter": "newsletter",
-    "subscribe to our newsletter": "subscribe to our newsletter",
-    "enter your email": "enter your email",
-    "subscribe": "subscribe",
-    
+    "exclusive access": "Exclusive Access",
+    "newsletter title": "Discount on a specific item",
+    "enter your email": "Your email address",
+    "subscribe": "Subscribe",
+    "newsletter desc": "Join the Franfio circle. Be the first to discover new arrivals, members-only offers, and seasonal lookbooks — delivered straight to your inbox.",
+
+    // Products
+    "woman's long dress": "Woman's Long Dress",
+    "woman's bag": "Woman's Bag",
+    "woman's shoes": "Woman's Shoes",
+    "2 piece swimsuit": "2 Piece Swimsuit",
+    "swimsuits": "Swimsuits",
+    "woman's fashion": "Woman's Fashion",
+    "add to cart": "Add to Cart",
+    "view all": "View All",
+
+    // Extra
+    "extra": "Extra",
+    "special offer": "Special Offer",
+    "up to": "Up to",
+    "off": "Off",
+
+    // Testimonials
+    "testimonials": "Testimonials",
+    "customer reviews": "Customer Reviews",
+
     // Footer
-    "about us": "about us",
-    "customer service": "customer service",
-    "follow us": "follow us",
-    "categories": "categories",
-    "women": "women",
-    "men": "men",
-    "kids": "kids",
-    "shoes": "shoes",
-    "brands": "brands",
-    
+    "about us": "About Us",
+    "customer service": "Customer Service",
+    "follow us": "Follow Us",
+    "categories": "Categories",
+    "women": "Women",
+    "men": "Men",
+    "kids": "Kids",
+    "shoes": "Shoes",
+    "brands": "Brands",
+
     // Product Page
-    "product": "product",
-    "price": "price",
-    "quantity": "quantity",
-    "size": "size",
-    "color": "color",
-    "description": "description",
-    "reviews": "reviews",
-    "in stock": "in stock",
-    "out of stock": "out of stock",
-    
+    "product": "Product",
+    "price": "Price",
+    "quantity": "Quantity",
+    "size": "Size",
+    "color": "Color",
+    "description": "Description",
+    "reviews": "Reviews",
+    "in stock": "In Stock",
+    "out of stock": "Out of Stock",
+
     // Cart
-    "cart": "cart",
-    "shopping cart": "shopping cart",
-    "product name": "product name",
-    "subtotal": "subtotal",
-    "total": "total",
-    "checkout": "checkout",
-    "continue shopping": "continue shopping",
-    "remove": "remove",
-    "update cart": "update cart",
-    "coupon code": "coupon code",
-    
+    "cart": "Cart",
+    "shopping cart": "Shopping Cart",
+    "product name": "Product Name",
+    "subtotal": "Subtotal",
+    "total": "Total",
+    "checkout": "Checkout",
+    "continue shopping": "Continue Shopping",
+    "remove": "Remove",
+    "update cart": "Update Cart",
+    "coupon code": "Coupon Code",
+
     // Checkout
-    "billing details": "billing details",
-    "shipping": "shipping",
-    "payment": "payment",
-    "place order": "place order",
-    "first name": "first name",
-    "last name": "last name",
-    "email": "email",
-    "phone": "phone",
-    "address": "address",
-    "city": "city",
-    "country": "country",
-    "zip code": "zip code",
-    "order total": "order total",
-    
+    "billing details": "Billing Details",
+    "shipping": "Shipping",
+    "payment": "Payment",
+    "place order": "Place Order",
+    "first name": "First Name",
+    "last name": "Last Name",
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Address",
+    "city": "City",
+    "country": "Country",
+    "zip code": "Zip Code",
+    "order total": "Order Total",
+
     // Contact
-    "get in touch": "get in touch",
-    "name": "name",
-    "message": "message",
-    "your message": "your message",
-    "send message": "send message",
-    "phone number": "phone number",
-    "email address": "email address",
-    "our location": "our location",
-    
+    "get in touch": "Get in Touch",
+    "name": "Name",
+    "message": "Message",
+    "your message": "Your Message",
+    "send message": "Send Message",
+    "phone number": "Phone Number",
+    "email address": "Email Address",
+    "our location": "Our Location",
+
     // Descriptions
-    "newsletter desc": "Get exclusive offers and updates on our latest collections. Sign up today and save on your next order!",
-    "promo desc": "Discover our exclusive collection with amazing discounts on selected items.",
+    "promo desc": "Discover the new Franfio collection — where timeless elegance meets modern expression.",
     "testimonial text": "Fantastic quality and fast delivery! I am very satisfied with my purchase and will definitely come back. The customer service was excellent!",
-    "product desc": "This high-quality product is made from the finest materials and offers exceptional comfort and style. Perfect for any occasion, it combines elegance with functionality.",
-    "faq answer": "We offer free shipping on all orders over €50. Delivery time is usually 3-5 business days. You can track your order at any time.",
+    "product desc": "This high-quality piece is crafted from the finest materials, offering exceptional comfort and style. Designed for every occasion — elegance meets functionality.",
+    "faq answer": "We offer free shipping on all orders over €50. Delivery typically takes 3–5 business days. You can track your order at any time.",
     "faq question 1": "How long does delivery take?",
     "faq question 2": "Can I return my order?",
-    
-    // Options/Features
-    "30 days returns": "30 days returns",
-    "no questions asked": "no questions asked",
-    "free delivery": "free delivery",
-    "on all orders": "on all orders",
-    "secure payments": "secure payments",
-    "no need to worry": "no need to worry",
-    "24/7 support": "24/7 support",
-    "just call us": "just call us"
+
+    // Features
+    "30 days returns": "30 Days Returns",
+    "no questions asked": "No Questions Asked",
+    "free delivery": "Free Delivery",
+    "on all orders": "On All Orders",
+    "secure payments": "Secure Payments",
+    "no need to worry": "No Need to Worry",
+    "24/7 support": "24/7 Support",
+    "just call us": "We're Always Here"
   }
 };
 
@@ -264,17 +318,25 @@ function switchLang(lang) {
 
 function translatePage() {
   const lang = translations[currentLang];
-  
+
   document.querySelectorAll('[data-translate]').forEach(el => {
     const key = el.getAttribute('data-translate').toLowerCase();
     if (lang[key]) {
-      if (el.tagName === 'INPUT' && el.placeholder) {
+      if (el.tagName === 'INPUT' && el.type !== 'submit') {
         el.placeholder = lang[key];
-      } else if (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA') {
-        el.value = lang[key];
+      } else if (el.tagName === 'TEXTAREA') {
+        el.placeholder = lang[key];
       } else {
-        el.textContent = lang[key];
+        el.innerHTML = lang[key];
       }
+    }
+  });
+
+  // Handle placeholder-only translate attributes
+  document.querySelectorAll('[data-translate-placeholder]').forEach(el => {
+    const key = el.getAttribute('data-translate-placeholder').toLowerCase();
+    if (lang[key]) {
+      el.placeholder = lang[key];
     }
   });
 }
